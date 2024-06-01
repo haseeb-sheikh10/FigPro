@@ -1,5 +1,11 @@
-import { Room } from "./Room";
+"use client";
+
+import Live from "@/components/Live";
 
 export default function Page() {
-  return <h1 className="text-center text-white">Figma Clone</h1>;
+  return (
+    <div className="h-[100vh] w-full">
+      <Live />
+    </div>
+  );
 }
